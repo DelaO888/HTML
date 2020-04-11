@@ -1,0 +1,20 @@
+h1{
+font-size: 50px; 
+font-family: Times New Roman;
+color: crimson;
+}
+h2{
+color: yellowgreen;
+font-size: 30px;
+font-family: Arial;
+}
+
+.big{
+font-size: 80px;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.big.uppercase{
+color: navy;
+}

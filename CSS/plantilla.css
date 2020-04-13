@@ -1,0 +1,43 @@
+body{
+    margin-bottom: 0;
+    font-family: 'Bungee Inline', cursive;
+}
+
+header{
+    background-color: yellow;
+    text-align: center;
+    border: 10px solid;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom:0;
+}
+header h1{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+}
+header p{
+    font-family: 'Vast Shadow', cursive;
+    font-size: 30px;
+}
+header img{
+    border: 10px solid;
+}
+
+h2{
+    font-size: 35px;
+}
+
+main{
+    max-width: 1920px;
+    background-color: orange;
+    margin-top: 0;
+    text-align: center;
+    border: 10px solid;
+  
+}
+main img{
+    max-width: 100%;
+    border: 10px solid black;
+  
+}
+

@@ -7,6 +7,7 @@ background-color: yellowgreen;
     width: 1420px;
     margin-top: 40px;
     margin-left: 250px;
+    margin-right: 250px;
     border: 20px double black;  
 }
 .box img{
@@ -48,6 +49,7 @@ nav li a {
     width: 1420px;
     margin-top: 0px;
     margin-left: 250px;
+    margin-right: 250px;
     border: 20px double black;  
 }
 .boxsponge h2{
@@ -62,6 +64,32 @@ nav li a {
 }
 .boxsponge p{
     text-align: right;
+    font-family: 'Ultra', serif;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.boxpatrick{
+    background-color: pink;
+    width: 1420px;
+    margin-top: 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 20px double black;  
+}
+.boxpatrick h2{
+    text-align: left;
+    font-family: 'Ultra', serif;
+    padding-right: 50px;
+}
+.boxpatrick img{
+    transform: translate(900px,-60px) rotate(10deg);
+    border: 10px solid white;
+    width: 400px;
+    height: 400px;
+    
+}
+.boxpatrick p{
+    text-align: left;
     font-family: 'Ultra', serif;
     padding-right: 30px;
     padding-top: 10px;

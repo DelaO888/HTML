@@ -1,0 +1,33 @@
+header{
+    position: relative;
+    background-color:black;
+    border: 10px solid white; 
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    background-color: black;
+}
+
+.headerim1{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    width: 650px;
+    height: 230px;
+}
+
+.headerim2{
+    position: absolute;
+    bottom: 10px;
+    left: 1100px;
+    width: 650px;
+    height: 230px;
+}

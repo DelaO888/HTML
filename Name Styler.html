@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formater</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="padding-top: 50px;">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <h2 id='name'>Your name goes here</h2>
+            <div class="form-group">
+                <label for="my-input">Type your name</label>
+                <input id="inputField" class="form-control" type="text" name="" onkeyup="writeName()">
+            </div>
+            <div class="row justify-content-center">
+                <button class="btn btn-light" type="button" onclick='AllCaps()'>
+                    All Caps
+                </button>
+                <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" id='dropbtn' onclick='FontChange()' type="button"  data-toggle="dropdown">
+                            Font Change
+                        </button>
+                        <div class='dropdown-menu' aria-labelledby="dropbtn">
+                       <a class='dropdown-item' href='#' style="font-family: Times New Roman;">Times New Roman</a>
+                        <a class='dropdown-item' href='#'>yes</a>
+                        </div>
+                </div>
+                <button class="btn btn-light" type="button" onclick="ColorChange()">
+                    Color Change
+                </button>
+            </div>
+        </div>       
+</div>
+
+
+<script>
+function writeName(){
+    if(document.getElementById("name").innerHTML.length==0){
+    document.getElementById("name").innerHTML = "<h2>Your name goes here</h2>";
+} else {
+    document.getElementById("name").innerHTML = inputField.value;
+}
+}
+
+function AllCaps(){
+    var caps = inputField.value;
+    document.getElementById("name").innerHTML='<h2>' +caps.toUpperCase();+ '</h2>';
+}
+</script>
+
+
+
+
+</body>
+</html>

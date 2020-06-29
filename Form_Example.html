@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form_style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="form_results.html" method="GET">
+            <div>
+                <label for="name">Name</label>
+            </div>
+            <div>
+                <input type="text" name='name' id='name' required>
+            </div>
+            <div>
+                <label for="pword">Password</label>
+                <input type="password" name='pword' id='pword' required>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+            <input type="email" name='mail' id="mail" required>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date"> 
+            </div>
+            <div>
+                <label for="macho">Macho</label>
+                <input type="radio" name="gender" id="macho" value="macho">
+            </div>
+            <div>
+                <label for="hembra">Hembra</label>
+                <input type="radio" name="gender" id="hembra" value="hembra">
+            </div>
+            <div>
+                <button type='submit'>Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+label{
+    font-family: 'Times New Roman, Arial';
+    font-size: large;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    margin-left: 10px;
+    padding-left: 50px
+}

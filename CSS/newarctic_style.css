@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    border: 8px solid white;
+}
+
+.header img{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.video{
+    margin-top: 30px;
+    text-align: center;
+    background-image: url(https://wallpaperaccess.com/full/1107685.jpg);
+    background-size: 50%;
+    background-position: 0px -100px;
+}
+
+.video iframe{
+    width: 860px; 
+    height: 615px;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flexbox-item{
+    color: white;
+    border: 5px solid white;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 700px;
+}
+
+.flexbox-item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display:block;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.flexbox-item h1{
+    font-family: "Arial Black";
+    font-weight: bolder;
+    text-align: center;
+}
+
+.flexbox-item p{
+    font-family: "Arial Black";
+    font-weight: bolder;
+    text-align: justify;
+    margin: 30px;
+}
+
+@media (max-width: 375px){
+
+    .header{
+        background-color: black;
+        width: 100%;
+        border: 10px solid white;
+    }
+
+
+    #img1{
+        text-align: center;
+    }
+
+    #img2{
+        text-align: center;
+    }
+
+    #img3{
+        text-align: center;
+    }
+
+    .video{
+        margin-top: 30px;
+        text-align: center;
+        background-image: url(https://wallpaperaccess.com/full/1107685.jpg);
+        background-size: 50%;
+        background-position: 0px 50px;
+    }
+    
+    .video iframe{
+        width: 320px; 
+        height: 200px;
+    }
+}

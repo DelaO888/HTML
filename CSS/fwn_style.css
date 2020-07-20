@@ -21,7 +21,7 @@ body{
 }
 
 .flex-item1{
-    grid-column: span 2;
+    grid-column: span 1;
     text-align: center;
 }
 
@@ -40,22 +40,23 @@ body{
     border: 5px solid white;
 }
 
-
-.flex-item2{
+.flex-item3 p{
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
-    
+    text-align: justify;
 }
 
-
-
-.flex-item3{
+.flex-item3 iframe{
     grid-column: span 2;
     margin: 0;
     padding: 0;
-    text-align: center;
     max-width: 100%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
+
+
 

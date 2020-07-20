@@ -5,7 +5,6 @@ body{
 .header{
     background-color: black;
     width: 100%;
-    border: 8px solid white;
 }
 
 .header img{
@@ -13,6 +12,34 @@ body{
     height: 20%;
     margin-left: 10%;
 }
+
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: #4444;
+}
+
+.navbar li{
+    list-style: none;
+    font-family: "Arial Black";
+}
+
+.navbar li:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.navbar a{
+    display: block;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .video{
     margin-top: 30px;
@@ -65,12 +92,45 @@ body{
     margin: 30px;
 }
 
+@media (max-width: 768px){
+
+    .header{
+        background-color: black;
+        width: 100%;
+    }
+
+
+    #img1{
+        text-align: center;
+    }
+
+    #img2{
+        text-align: center;
+    }
+
+    #img3{
+        text-align: center;
+    }
+
+    .video{
+        margin-top: 30px;
+        text-align: center;
+        background-image: url(https://wallpaperaccess.com/full/1107685.jpg);
+        background-size: 50%;
+        background-position: 0px 50px;
+    }
+    
+    .video iframe{
+        width: 730px; 
+        height: 400px;
+    }
+}
+
 @media (max-width: 375px){
 
     .header{
         background-color: black;
         width: 100%;
-        border: 10px solid white;
     }
 
 
@@ -99,3 +159,4 @@ body{
         height: 200px;
     }
 }
+

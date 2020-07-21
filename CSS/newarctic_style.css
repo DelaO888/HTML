@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
 }
@@ -15,17 +19,16 @@ body{
 
 
 .navbar ul{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+    display: inline;
     text-align: center;
     background-color: #4444;
+    margin: 0;
 }
 
 .navbar li{
     list-style: none;
     font-family: "Arial Black";
+    padding: 1rem;
 }
 
 .navbar li:hover{
@@ -33,9 +36,6 @@ body{
 }
 
 .navbar a{
-    display: block;
-    align-items: center;
-    padding: 1rem;
     color: #fff;
     text-decoration: none;
 }
